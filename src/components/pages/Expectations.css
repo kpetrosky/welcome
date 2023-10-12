@@ -1,0 +1,28 @@
+/* In your CSS file, e.g., App.css */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns, adjust as needed */
+    gap: 20px; /* Adjust the gap between images */
+    list-style: none; /* Remove list bullet points */
+    padding: 10; /* Remove default padding for the list */
+    margin: 10; /* Remove default margin for the list */
+  }
+  
+  .image-grid li {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .about-image {
+    width: 100%; /* Make sure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #e28204; /* Add a border to each image */
+    border-radius: 8px; /* Apply rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    transition: transform 0.2s ease-in-out; /* Add a hover effect */
+  }
+  
+  .about-image:hover {
+    transform: scale(1.05); /* Scale the image on hover for a subtle effect */
+  }
+  
