@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import Navbar from "./components/NavBar";
 import Header from "./components/Header";
 import About from "./components/pages/About";
+import GetToKnow from "./components/pages/GetToKnow";
 
 import Expectations from "./components/pages/Expectations";
 
@@ -25,7 +26,7 @@ function App() {
      
           <Route path="/About" element={<About />} />
           <Route path="/Expectations" element={<Expectations />} />
-          
+          <Route path="/GetToKnow" element={<GetToKnow />} />
         </Routes>
       </div>
     </Router>

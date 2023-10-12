@@ -1,0 +1,7 @@
+.content {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;
+    gap: 20px; /* Adjust the space between elements */
+    text-align: center; /* Center-align text within the container */
+  }
